@@ -17,7 +17,7 @@ export default function Products() {
 
   const activeCategory = searchParams.get("category") || "";
   const searchQuery = searchParams.get("search") || "";
-  const [priceRange, setPriceRange] = useState<{ min: number; max: number } | null>(null);
+  const [priceRange, setPriceRange] = useState<{ min: number; max: number; label: string } | null>(null);
 
   const filtered = useMemo(() => {
     let result = products;

@@ -13,7 +13,7 @@ Features
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js / Python
 Database: MongoDB / MySQL
-Tools: Git, GitHu
+Tools: Git, GitHub
 🚀 Live Demo:- mithila-bazaar.vercel.app
 
 How It Works
